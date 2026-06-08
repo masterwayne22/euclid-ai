@@ -7,17 +7,6 @@ Implements **HNSW**, **KD-Tree**, and **Brute Force** search algorithms side-by-
 
 ---
 
-## About This Project
-
-This project was built and maintained by **Krishiv Sarva** ([@masterwayne22](https://github.com/masterwayne22)), a Computer Science undergraduate at VIT Bhopal University.
-
-### What I Fixed & Improved
-
-- **Fixed a critical Windows port-binding bug** — the original `svr.listen()` call was silently failing on Windows due to a conflicting system process on port 8080. Fixed by adding `httplib::ThreadPool` and migrating to port 9090, making the server actually bind and stay alive.
-- **Debugged and verified the full RAG pipeline** — tested end-to-end document embedding, HNSW retrieval, and LLM generation with Ollama locally.
-- **Documented the Windows setup process** with real troubleshooting steps missing from the original.
-
----
 
 ## What This Project Does
 
