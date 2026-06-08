@@ -132,8 +132,6 @@ http://localhost:9090
 Ollama: ONLINE
 ```
 
-> **Note:** The server runs on port **9090** (not 8080) — port 8080 conflicts with a Windows system service (`AgentService.exe`). This is the fix applied in this repo.
-
 ---
 
 ## Troubleshooting
